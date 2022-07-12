@@ -1,0 +1,65 @@
+.places h1 {
+    text-align: left;
+    font-size: 30px;
+    margin-left: 15px;
+}
+article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    display: inline-block;
+    min-height: 300px;
+    vertical-align: top;
+}
+h2 {
+    font-size: 30px;
+    margin-top: 5px;
+}
+.price_by_night {
+    color: #FF5A5F;
+    border:solid #FF5A5F 4px;
+    border-radius: 50%; /* make it a circle */
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    float: right; /* position to the right of h2 tilte (ex: My home) */
+    position: relative; /* make relative position and use "bottom" property to make the price position higher*/
+    bottom: 81px; /*set the position of the circle border and the text inside */
+    line-height: 60px;
+    text-align: center;
+    padding: 5px;
+}
+.max_guest {
+    background-image: url("../images/icon_group.png");
+}
+.number_rooms {
+    background-image: url("../images/icon_bed.png");
+}
+.number_bathrooms {
+    background-image: url("../images/icon_bath.png");
+}
+.max_guest, .number_rooms, .number_bathrooms {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 100% 6px;
+    background-size: 45%;
+    line-height: 130px;
+    width: 99px;
+    text-indent: 15%;
+}
+.information {
+    height: 80px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+.user, .description {
+    text-align: left;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+footer{
+    position: absolute;
+    bottom: -80%;
+}
